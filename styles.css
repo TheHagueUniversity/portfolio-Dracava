@@ -1,4 +1,7 @@
 html,
+
+/* Basic lay-out */
+
 body {
     background: black;
     margin: 0;
@@ -10,6 +13,9 @@ body {
 * {
     box-sizing: border-box;
 }
+
+
+/* Navigation bar */
 
 .topnav {
     background-color: black;
@@ -46,9 +52,15 @@ body {
     color: white;
 }
 
+
+/* Home button */
+
 .home {
     padding-left: 5%;
 }
+
+
+/* Section */
 
 .section_container {
     position: relative;
@@ -60,17 +72,26 @@ body {
     padding: 5%;
 }
 
+
+/* About Me */
+
 .aboutme_container {
     border: 30px solid black;
     display: flex;
     padding-bottom: 0px;
 }
 
+
+/* Text */
+
 .aboutme_text_container {
     font-family: 'Exo 2', sans-serif;
     font-size: larger;
     margin: 5%;
 }
+
+
+/* Context container */
 
 .contact_text_container {
     font-family: 'Exo 2', sans-serif;
@@ -79,10 +100,16 @@ body {
     margin: 5%;
 }
 
+
+/* Projects container */
+
 .projects_container {
     font-family: 'Exo 2', sans-serif;
     font-size: larger;
 }
+
+
+/* Images */
 
 .img1_container {
     background-color: black;
@@ -93,6 +120,9 @@ body {
     background-color: black;
     padding-right: 100px;
 }
+
+
+/* Education containers */
 
 .right_container {
     color: white;
@@ -108,6 +138,9 @@ body {
     flex-direction: column;
 }
 
+
+/* Main image about me */
+
 .me_img_container {
     position: relative;
     margin-left: 28%;
@@ -121,6 +154,9 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size: larger;
 }
+
+
+/* Education section */
 
 .edu_p.button {
     display: flex;
@@ -168,6 +204,9 @@ body {
     -o-transition: left 2s;
 }
 
+
+/* Image slider */
+
 .slider-image {
     float: left;
     margin: 0px;
@@ -210,12 +249,18 @@ body {
     margin-top: 50px;
 }
 
+
+/* About Me text */
+
 .aboutme_text_container {
     height: 100%;
     text-align: left;
     font-family: 'Exo 2', sans-serif;
     font-size: larger;
 }
+
+
+/* Project text */
 
 .project_text_container {
     height: 100%;
@@ -224,6 +269,9 @@ body {
     font-size: large;
     padding-right: 2%;
 }
+
+
+/* Project pictures grid */
 
 a.button {
     padding: 10px 25px;
