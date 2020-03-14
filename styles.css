@@ -57,6 +57,7 @@ body {
     flex-direction: row;
     width: 100%;
     padding-bottom: 330px;
+    padding: 5%;
 }
 
 .aboutme_container {
@@ -79,7 +80,6 @@ body {
 }
 
 .projects_container {
-    padding-top: 100px;
     font-family: 'Exo 2', sans-serif;
     font-size: larger;
 }
@@ -258,9 +258,8 @@ a.button {
 }
 
 .photo-section {
-    max-width: 960;
     margin: 0 auto;
-    padding: 6% 2%;
+    padding: 0% 2%;
 }
 
 .photo-grid {
