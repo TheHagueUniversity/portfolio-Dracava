@@ -78,7 +78,137 @@ body {
     margin: 5%;
 }
 
+.projects_container {
+    padding-top: 100px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: larger;
+}
+
+.img1_container {
+    background-color: black;
+    padding: 50px;
+}
+
+.img2_container {
+    background-color: black;
+    padding-right: 100px;
+}
+
+.right_container {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_container {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.me_img_container {
+    position: relative;
+    margin-left: 28%;
+}
+
+.quality_container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: larger;
+}
+
+.edu_p.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.edu_text_container {
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 100px;
+}
+
+.right_container.edu_text_container {
+    text-align: left;
+    justify-content: right;
+    padding: 0% 5%;
+    font-size: larger;
+}
+
+.left_container.edu_text_container {
+    text-align: right;
+    justify-content: left;
+    padding: 0% 5%;
+    font-size: larger;
+}
+
+.slide-container {
+    margin-top: 100px;
+    margin-bottom: 330px;
+    width: 1100px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container {
+    width: 4400px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-container {
+    top: -30px;
+    height: 100px;
+    position: relative;
+}
+
+.slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#slider-image-1:target~.image-container {
+    left: 0px;
+}
+
+#slider-image-2:target~.image-container {
+    left: -1100px;
+}
+
+#slider-image-3:target~.image-container {
+    left: -2200px;
+}
+
+#slider-image-4:target~.image-container {
+    left: -3300px;
+}
 
 }
+@media screen and (max-width:750px) {
+    .section_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }
